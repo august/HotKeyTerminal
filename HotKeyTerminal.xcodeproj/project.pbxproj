@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CCA038B12CDA8E60012CF1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCA038A12CDA8E60012CF1D /* Cocoa.framework */; };
+		8CCA039012CDA8E60012CF1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA038E12CDA8E60012CF1D /* InfoPlist.strings */; };
+		8CCA039212CDA8E60012CF1D /* HotKeyTerminal-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA039112CDA8E60012CF1D /* HotKeyTerminal-main.m */; };
+		8CCA039512CDA8E70012CF1D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA039312CDA8E70012CF1D /* MainMenu.xib */; };
+		8CCA039812CDA8E70012CF1D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA039612CDA8E70012CF1D /* Credits.rtf */; };
+		8CCA039B12CDA8E70012CF1D /* HotKeyTerminalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA039A12CDA8E70012CF1D /* HotKeyTerminalAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CCA038712CDA8E60012CF1D /* HotKeyTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotKeyTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCA038A12CDA8E60012CF1D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8CCA038C12CDA8E60012CF1D /* HotKeyTerminal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotKeyTerminal-Info.plist"; sourceTree = "<group>"; };
+		8CCA038D12CDA8E60012CF1D /* HotKeyTerminal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotKeyTerminal-Prefix.pch"; sourceTree = "<group>"; };
+		8CCA038F12CDA8E60012CF1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CCA039112CDA8E60012CF1D /* HotKeyTerminal-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HotKeyTerminal-main.m"; sourceTree = "<group>"; };
+		8CCA039412CDA8E70012CF1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8CCA039712CDA8E70012CF1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8CCA039912CDA8E70012CF1D /* HotKeyTerminalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotKeyTerminalAppDelegate.h; sourceTree = "<group>"; };
+		8CCA039A12CDA8E70012CF1D /* HotKeyTerminalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotKeyTerminalAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CCA038412CDA8E60012CF1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCA038B12CDA8E60012CF1D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CCA037812CDA8E60012CF1D = {
+			isa = PBXGroup;
+			children = (
+				8CCA037F12CDA8E60012CF1D /* Classes */,
+				8CCA038012CDA8E60012CF1D /* Other Sources */,
+				8CCA038112CDA8E60012CF1D /* Resources */,
+				8CCA038212CDA8E60012CF1D /* Frameworks */,
+				8CCA038812CDA8E60012CF1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CCA037F12CDA8E60012CF1D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA039912CDA8E70012CF1D /* HotKeyTerminalAppDelegate.h */,
+				8CCA039A12CDA8E70012CF1D /* HotKeyTerminalAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8CCA038012CDA8E60012CF1D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA038D12CDA8E60012CF1D /* HotKeyTerminal-Prefix.pch */,
+				8CCA039112CDA8E60012CF1D /* HotKeyTerminal-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		8CCA038112CDA8E60012CF1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA038C12CDA8E60012CF1D /* HotKeyTerminal-Info.plist */,
+				8CCA038E12CDA8E60012CF1D /* InfoPlist.strings */,
+				8CCA039312CDA8E70012CF1D /* MainMenu.xib */,
+				8CCA039612CDA8E70012CF1D /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8CCA038212CDA8E60012CF1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA038A12CDA8E60012CF1D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CCA038812CDA8E60012CF1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CCA038712CDA8E60012CF1D /* HotKeyTerminal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CCA038612CDA8E60012CF1D /* HotKeyTerminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCA039E12CDA8E70012CF1D /* Build configuration list for PBXNativeTarget "HotKeyTerminal" */;
+			buildPhases = (
+				8CCA038312CDA8E60012CF1D /* Sources */,
+				8CCA038412CDA8E60012CF1D /* Frameworks */,
+				8CCA038512CDA8E60012CF1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotKeyTerminal;
+			productName = HotKeyTerminal;
+			productReference = 8CCA038712CDA8E60012CF1D /* HotKeyTerminal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CCA037A12CDA8E60012CF1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "FoggyNoggin Software";
+			};
+			buildConfigurationList = 8CCA037D12CDA8E60012CF1D /* Build configuration list for PBXProject "HotKeyTerminal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CCA037812CDA8E60012CF1D;
+			productRefGroup = 8CCA038812CDA8E60012CF1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CCA038612CDA8E60012CF1D /* HotKeyTerminal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CCA038512CDA8E60012CF1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCA039012CDA8E60012CF1D /* InfoPlist.strings in Resources */,
+				8CCA039512CDA8E70012CF1D /* MainMenu.xib in Resources */,
+				8CCA039812CDA8E70012CF1D /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CCA038312CDA8E60012CF1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCA039212CDA8E60012CF1D /* HotKeyTerminal-main.m in Sources */,
+				8CCA039B12CDA8E70012CF1D /* HotKeyTerminalAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CCA038E12CDA8E60012CF1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CCA038F12CDA8E60012CF1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CCA039312CDA8E70012CF1D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CCA039412CDA8E70012CF1D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8CCA039612CDA8E70012CF1D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CCA039712CDA8E70012CF1D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CCA039C12CDA8E70012CF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8CCA039D12CDA8E70012CF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8CCA039F12CDA8E70012CF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotKeyTerminal-Prefix.pch";
+				INFOPLIST_FILE = "HotKeyTerminal-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CCA03A012CDA8E70012CF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotKeyTerminal-Prefix.pch";
+				INFOPLIST_FILE = "HotKeyTerminal-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CCA037D12CDA8E60012CF1D /* Build configuration list for PBXProject "HotKeyTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCA039C12CDA8E70012CF1D /* Debug */,
+				8CCA039D12CDA8E70012CF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCA039E12CDA8E70012CF1D /* Build configuration list for PBXNativeTarget "HotKeyTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCA039F12CDA8E70012CF1D /* Debug */,
+				8CCA03A012CDA8E70012CF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CCA037A12CDA8E60012CF1D /* Project object */;
+}
