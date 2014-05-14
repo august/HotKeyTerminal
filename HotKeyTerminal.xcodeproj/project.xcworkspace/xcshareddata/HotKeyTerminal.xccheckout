@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F6702C32-87ED-4EE5-B132-49695F7309B9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HotKeyTerminal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B2FA2689-1741-428A-A867-111FE3B2756B</key>
+		<string>https://github.com/august/HotKeyTerminal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HotKeyTerminal.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B2FA2689-1741-428A-A867-111FE3B2756B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/august/HotKeyTerminal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B2FA2689-1741-428A-A867-111FE3B2756B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B2FA2689-1741-428A-A867-111FE3B2756B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HotKeyTerminal</string>
+		</dict>
+	</array>
+</dict>
+</plist>

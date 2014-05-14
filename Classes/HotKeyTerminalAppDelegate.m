@@ -15,6 +15,9 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
     
+    // trust this application
+    AXIsProcessTrustedWithOptions(CFDictionaryCreate(NULL, (const void*[]){ kAXTrustedCheckOptionPrompt }, (const void*[]){ kCFBooleanTrue }, 1, NULL, NULL));
+    
     [NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask handler:^(NSEvent *event)
     {
         int flags = [event modifierFlags];
@@ -23,6 +26,7 @@
         if (([event keyCode] == 53) && commandDown)
             [[NSWorkspace sharedWorkspace] launchApplication:@"Terminal"]; 
     }];
+
 }
 
 @end
